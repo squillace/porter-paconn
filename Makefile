@@ -1,5 +1,5 @@
 MIXIN = paconn
-PKG = get.porter.sh/mixin/$(MIXIN)
+PKG = github.com/squillace/porter-$(MIXIN)
 SHELL = bash
 
 GO = GO111MODULE=on go
