@@ -1,11 +1,11 @@
 package main
 
 import (
-	"get.porter.sh/mixin/skeletor/pkg/skeletor"
+	"github.com/squillace/porter-paconn/pkg/paconn"
 	"github.com/spf13/cobra"
 )
 
-func buildUninstallCommand(m *skeletor.Mixin) *cobra.Command {
+func buildUninstallCommand(m *paconn.Mixin) *cobra.Command {
 	cmd := &cobra.Command{
 		Use:   "uninstall",
 		Short: "Execute the uninstall functionality of this mixin",

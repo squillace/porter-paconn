@@ -1,7 +1,7 @@
 package main
 
 import (
-	"get.porter.sh/mixin/skeletor/pkg/skeletor"
+	"github.com/squillace/porter-paconn/pkg/paconn"
 	"github.com/spf13/cobra"
 )
 
@@ -9,7 +9,7 @@ var (
 	commandFile string
 )
 
-func buildInstallCommand(m *skeletor.Mixin) *cobra.Command {
+func buildInstallCommand(m *paconn.Mixin) *cobra.Command {
 	cmd := &cobra.Command{
 		Use:   "install",
 		Short: "Execute the install functionality of this mixin",

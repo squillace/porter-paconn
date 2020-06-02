@@ -1,5 +1,5 @@
 install:
-  - skeletor:
+  - paconn:
       description: "Summon Minion"
       arguments:
       - "man-e-faces"

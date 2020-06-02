@@ -1,4 +1,4 @@
-package skeletor
+package paconn
 
 import (
 	"testing"

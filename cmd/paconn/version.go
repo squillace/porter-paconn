@@ -1,12 +1,12 @@
 package main
 
 import (
-	"get.porter.sh/mixin/skeletor/pkg/skeletor"
+	"github.com/squillace/porter-paconn/pkg/paconn"
 	"get.porter.sh/porter/pkg/porter/version"
 	"github.com/spf13/cobra"
 )
 
-func buildVersionCommand(m *skeletor.Mixin) *cobra.Command {
+func buildVersionCommand(m *paconn.Mixin) *cobra.Command {
 	opts := version.Options{}
 
 	cmd := &cobra.Command{

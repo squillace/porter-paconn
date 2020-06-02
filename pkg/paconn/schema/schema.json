@@ -4,40 +4,40 @@
     "installStep": {
       "type": "object",
       "properties": {
-        "skeletor": {"$ref": "#/definitions/skeletor"}
+        "paconn": {"$ref": "#/definitions/paconn"}
       },
       "required": [
-        "skeletor"
+        "paconn"
       ],
       "additionalProperties": false
     },
     "upgradeStep": {
       "type": "object",
       "properties": {
-        "skeletor": {"$ref": "#/definitions/skeletor"}
+        "paconn": {"$ref": "#/definitions/paconn"}
       },
       "required": [
-        "skeletor"
+        "paconn"
       ],
       "additionalProperties": false
     },
     "invokeStep": {
       "type": "object",
       "properties": {
-        "skeletor": {"$ref": "#/definitions/skeletor"}
+        "paconn": {"$ref": "#/definitions/paconn"}
       },
       "required": [
-        "skeletor"
+        "paconn"
       ],
       "additionalProperties": false
     },
     "uninstallStep": {
       "type": "object",
       "properties": {
-        "skeletor": {"$ref": "#/definitions/skeletor"}
+        "paconn": {"$ref": "#/definitions/paconn"}
       },
       "required": [
-        "skeletor"
+        "paconn"
       ],
       "additionalProperties": false
     },
@@ -74,7 +74,7 @@
         ]
       }
     },
-    "skeletor": {
+    "paconn": {
       "type": "object",
       "properties": {
         "description": {
