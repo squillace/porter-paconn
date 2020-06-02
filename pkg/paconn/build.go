@@ -1,5 +1,7 @@
 package paconn
 
+import "fmt"
+
 // This is an example. Replace the following with whatever steps are needed to
 // install required components into
 // const dockerfileLines = `RUN apt-get update && \
@@ -12,9 +14,11 @@ package paconn
 // apt-get update && apt-get install azure-cli
 // `
 
+const dockerfileLines = `RUN apt-get install -y python3 && apt-get install -y python3-pip && pip3 install paconn`
+
 // Build will generate the necessary Dockerfile lines
 // for an invocation image using this mixin
 func (m *Mixin) Build() error {
-	//fmt.Fprintf(m.Out, dockerfileLines)
+	fmt.Fprintf(m.Out, dockerfileLines)
 	return nil
 }
